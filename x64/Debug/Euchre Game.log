@@ -1,0 +1,198 @@
+﻿  Card.cpp
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,10): error C2039: 'string': is not a member of 'std'
+C:\Users\wille\source\repos\Euchre Game\predefined C++ types (compiler internal)(343,11): message : see declaration of 'std'
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,17): error C3646: 'getSuitAsString': unknown override specifier
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,32): error C2059: syntax error: '('
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,10): error C2039: 'string': is not a member of 'std'
+C:\Users\wille\source\repos\Euchre Game\predefined C++ types (compiler internal)(343,11): message : see declaration of 'std'
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,17): error C3646: 'getRankAsString': unknown override specifier
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,32): error C2059: syntax error: '('
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,10): error C2039: 'string': is not a member of 'std'
+C:\Users\wille\source\repos\Euchre Game\predefined C++ types (compiler internal)(343,11): message : see declaration of 'std'
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,17): error C3646: 'toString': unknown override specifier
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,25): error C2059: syntax error: '('
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(11,7): error C2511: 'Card::Card(Suit,int)': overloaded member function not found in 'Card'
+C:\Users\wille\source\repos\Euchre Game\Card.h(14,7): message : see declaration of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(12,5): error C2597: illegal reference to non-static member 'Card::m_suit'
+C:\Users\wille\source\repos\Euchre Game\Card.h(32,9): message : see declaration of 'Card::m_suit'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(12,5): error C2065: 'm_suit': undeclared identifier
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(12,19): error C2597: illegal reference to non-static member 'Card::m_rank'
+C:\Users\wille\source\repos\Euchre Game\Card.h(33,9): message : see declaration of 'Card::m_rank'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(12,19): error C2065: 'm_rank': undeclared identifier
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(12,25): error C2065: 'm_rank': undeclared identifier
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(15,1): error C2597: illegal reference to non-static member 'Card::m_suit'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(15,1): error C3867: 'Card::m_suit': non-standard syntax; use '&' to create a pointer to member
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(15,1): error C2568: ',': unable to resolve function overload
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(15,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(17,28): error C2556: 'Suit Card::getSuit(void) const': overloaded function differs only by return type from 'int Card::getSuit(void) const'
+C:\Users\wille\source\repos\Euchre Game\Card.h(21,9): message : see declaration of 'Card::getSuit'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(17,12): error C2371: 'Card::getSuit': redefinition; different basic types
+C:\Users\wille\source\repos\Euchre Game\Card.h(21,9): message : see declaration of 'Card::getSuit'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(25,19): error C2039: 'getSuitAsString': is not a member of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Card.h(14,7): message : see declaration of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(25,43): error C2270: 'getSuitAsString': modifiers not allowed on nonmember functions
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(26,13): error C2065: 'm_suit': undeclared identifier
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(26,21): error C2050: switch expression not integral
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(27,16): error C2440: 'type cast': cannot convert from 'Suit' to 'int'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(27,16): message : This conversion requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(27,5): error C2046: illegal case
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(29,16): error C2440: 'type cast': cannot convert from 'Suit' to 'int'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(29,16): message : This conversion requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(29,5): error C2046: illegal case
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(31,16): error C2440: 'type cast': cannot convert from 'Suit' to 'int'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(31,16): message : This conversion requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(31,5): error C2046: illegal case
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(33,16): error C2440: 'type cast': cannot convert from 'Suit' to 'int'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(33,16): message : This conversion requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(33,5): error C2046: illegal case
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(35,5): warning C4060: switch statement contains no 'case' or 'default' labels
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(38,19): error C2039: 'getRankAsString': is not a member of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Card.h(14,7): message : see declaration of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(38,43): error C2270: 'getRankAsString': modifiers not allowed on nonmember functions
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(39,13): error C2065: 'm_rank': undeclared identifier
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(39,21): error C2050: switch expression not integral
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(54,19): error C2039: 'toString': is not a member of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Card.h(14,7): message : see declaration of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(54,36): error C2270: 'toString': modifiers not allowed on nonmember functions
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(64,20): error C2677: binary '==': no global operator found which takes type 'Suit' (or there is no acceptable conversion)
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(68,58): error C2677: binary '!=': no global operator found which takes type 'Suit' (or there is no acceptable conversion)
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(71,21): error C2677: binary '==': no global operator found which takes type 'Suit' (or there is no acceptable conversion)
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(79,12): error C2039: 'stringToSuit': is not a member of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Card.h(14,7): message : see declaration of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(93,12): error C2084: function 'bool Card::isBetterThan(const Card &,Suit,Suit) const' already has a body
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(62,12): message : see previous definition of 'isBetterThan'
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(97,21): error C2677: binary '==': no global operator found which takes type 'Suit' (or there is no acceptable conversion)
+C:\Users\wille\source\repos\Euchre Game\Card.cpp(103,21): error C2677: binary '==': no global operator found which takes type 'Suit' (or there is no acceptable conversion)
+  Game.cpp
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,10): error C2039: 'string': is not a member of 'std'
+C:\Users\wille\source\repos\Euchre Game\predefined C++ types (compiler internal)(343,11): message : see declaration of 'std'
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,17): error C3646: 'getSuitAsString': unknown override specifier
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,32): error C2059: syntax error: '('
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,10): error C2039: 'string': is not a member of 'std'
+C:\Users\wille\source\repos\Euchre Game\predefined C++ types (compiler internal)(343,11): message : see declaration of 'std'
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,17): error C3646: 'getRankAsString': unknown override specifier
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,32): error C2059: syntax error: '('
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,10): error C2039: 'string': is not a member of 'std'
+C:\Users\wille\source\repos\Euchre Game\predefined C++ types (compiler internal)(343,11): message : see declaration of 'std'
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,17): error C3646: 'toString': unknown override specifier
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,25): error C2059: syntax error: '('
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\wille\source\repos\Euchre Game\Deck.h(22,24): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Card'
+C:\Users\wille\source\repos\Euchre Game\Deck.h(22,24): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\wille\source\repos\Euchre Game\Deck.h(23,24): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Card'
+C:\Users\wille\source\repos\Euchre Game\Deck.h(23,24): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\wille\source\repos\Euchre Game\Deck.h(24,24): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Card'
+C:\Users\wille\source\repos\Euchre Game\Deck.h(24,24): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\wille\source\repos\Euchre Game\Deck.h(25,24): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Card'
+C:\Users\wille\source\repos\Euchre Game\Deck.h(25,24): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\wille\source\repos\Euchre Game\Deck.h(31,16): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+C:\Users\wille\source\repos\Euchre Game\CardEnums.h(3,17): error C2011: 'Suit': 'enum' type redefinition
+C:\Users\wille\source\repos\Euchre Game\Card.h(5,12): message : see declaration of 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(5,67): error C2027: use of undefined type 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Card.h(5,12): message : see declaration of 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(5,71): error C2065: 'NONE': undeclared identifier
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(49,43): error C2039: 'toString': is not a member of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Card.h(14,7): message : see declaration of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(51,36): error C2440: '=': cannot convert from 'int' to 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(51,36): message : Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(58,28): error C2027: use of undefined type 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Card.h(5,12): message : see declaration of 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(58,32): error C2065: 'NONE': undeclared identifier
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(63,34): error C2664: 'Card Player::playCard(const std::vector<Card,std::allocator<Card>> &,Suit,Suit)': cannot convert argument 3 from 'int' to 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(63,83): message : Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
+C:\Users\wille\source\repos\Euchre Game\Player.h(16,18): message : see declaration of 'Player::playCard'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(63,34): message : while trying to match the argument list '(std::vector<Card,std::allocator<Card>>, Suit, int)'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(65,80): error C2039: 'toString': is not a member of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Card.h(14,7): message : see declaration of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(73,27): error C2665: 'Card::isBetterThan': no overloaded function could convert all the argument types
+C:\Users\wille\source\repos\Euchre Game\Card.h(28,10): message : could be 'bool Card::isBetterThan(const Card &,Suit,Suit) const'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(73,27): message : 'bool Card::isBetterThan(const Card &,Suit,Suit) const': cannot convert argument 3 from 'int' to 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(73,80): message : Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(73,27): message : while trying to match the argument list '(Card, Suit, int)'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(96,16): error C2027: use of undefined type 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Card.h(5,12): message : see declaration of 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(96,21): error C2065: 'CLUBS': undeclared identifier
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(96,21): error C2131: expression did not evaluate to a constant
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(96,21): message : a non-constant (sub-)expression was encountered
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(98,16): error C2027: use of undefined type 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Card.h(5,12): message : see declaration of 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(98,24): error C2065: 'DIAMONDS': undeclared identifier
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(98,24): error C2131: expression did not evaluate to a constant
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(98,24): message : a non-constant (sub-)expression was encountered
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(100,16): error C2027: use of undefined type 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Card.h(5,12): message : see declaration of 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(100,22): error C2065: 'HEARTS': undeclared identifier
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(100,22): error C2131: expression did not evaluate to a constant
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(100,22): message : a non-constant (sub-)expression was encountered
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(102,16): error C2027: use of undefined type 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Card.h(5,12): message : see declaration of 'Suit'
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(102,22): error C2065: 'SPADES': undeclared identifier
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(102,22): error C2131: expression did not evaluate to a constant
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(102,22): message : a non-constant (sub-)expression was encountered
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(96,5): error C2051: case expression not constant
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(98,5): error C2051: case expression not constant
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(100,5): error C2051: case expression not constant
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(102,5): error C2051: case expression not constant
+C:\Users\wille\source\repos\Euchre Game\Game.cpp(106,5): warning C4065: switch statement contains 'default' but no 'case' labels
+  Main.cpp
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,10): error C2039: 'string': is not a member of 'std'
+C:\Users\wille\source\repos\Euchre Game\predefined C++ types (compiler internal)(343,11): message : see declaration of 'std'
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,17): error C3646: 'getSuitAsString': unknown override specifier
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,32): error C2059: syntax error: '('
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,10): error C2039: 'string': is not a member of 'std'
+C:\Users\wille\source\repos\Euchre Game\predefined C++ types (compiler internal)(343,11): message : see declaration of 'std'
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,17): error C3646: 'getRankAsString': unknown override specifier
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,32): error C2059: syntax error: '('
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,10): error C2039: 'string': is not a member of 'std'
+C:\Users\wille\source\repos\Euchre Game\predefined C++ types (compiler internal)(343,11): message : see declaration of 'std'
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,17): error C3646: 'toString': unknown override specifier
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,25): error C2059: syntax error: '('
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\wille\source\repos\Euchre Game\Deck.h(22,24): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Card'
+C:\Users\wille\source\repos\Euchre Game\Deck.h(22,24): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\wille\source\repos\Euchre Game\Deck.h(23,24): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Card'
+C:\Users\wille\source\repos\Euchre Game\Deck.h(23,24): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\wille\source\repos\Euchre Game\Deck.h(24,24): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Card'
+C:\Users\wille\source\repos\Euchre Game\Deck.h(24,24): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\wille\source\repos\Euchre Game\Deck.h(25,24): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Card'
+C:\Users\wille\source\repos\Euchre Game\Deck.h(25,24): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\wille\source\repos\Euchre Game\Deck.h(31,16): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+  Player.cpp
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,10): error C2039: 'string': is not a member of 'std'
+C:\Users\wille\source\repos\Euchre Game\predefined C++ types (compiler internal)(343,11): message : see declaration of 'std'
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,17): error C3646: 'getSuitAsString': unknown override specifier
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,32): error C2059: syntax error: '('
+C:\Users\wille\source\repos\Euchre Game\Card.h(24,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,10): error C2039: 'string': is not a member of 'std'
+C:\Users\wille\source\repos\Euchre Game\predefined C++ types (compiler internal)(343,11): message : see declaration of 'std'
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,17): error C3646: 'getRankAsString': unknown override specifier
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,32): error C2059: syntax error: '('
+C:\Users\wille\source\repos\Euchre Game\Card.h(25,40): error C2238: unexpected token(s) preceding ';'
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,10): error C2039: 'string': is not a member of 'std'
+C:\Users\wille\source\repos\Euchre Game\predefined C++ types (compiler internal)(343,11): message : see declaration of 'std'
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,17): error C3646: 'toString': unknown override specifier
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,25): error C2059: syntax error: '('
+C:\Users\wille\source\repos\Euchre Game\Card.h(26,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\wille\source\repos\Euchre Game\Player.cpp(75,48): error C2039: 'toString': is not a member of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Card.h(14,7): message : see declaration of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Player.cpp(86,49): error C2039: 'toString': is not a member of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Card.h(14,7): message : see declaration of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Player.cpp(99,32): error C2677: binary '==': no global operator found which takes type 'Suit' (or there is no acceptable conversion)
+C:\Users\wille\source\repos\Euchre Game\Player.cpp(113,50): error C2039: 'toString': is not a member of 'Card'
+C:\Users\wille\source\repos\Euchre Game\Card.h(14,7): message : see declaration of 'Card'
+  Generating Code...
