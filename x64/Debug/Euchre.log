@@ -1,0 +1,21 @@
+﻿  CanUseDeck.cpp
+  Card.cpp
+  Dealer.cpp
+  Deck.cpp
+  Euchre.cpp
+  Game.cpp
+C:\Users\wille\source\repos\Euchre\Game.cpp(17,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\wille\source\repos\Euchre\Game.cpp(42,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\wille\source\repos\Euchre\Game.cpp(129,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\wille\source\repos\Euchre\Game.cpp(243,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\wille\source\repos\Euchre\Game.cpp(297,143): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\wille\source\repos\Euchre\Game.cpp(305,127): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\wille\source\repos\Euchre\Game.cpp(333,142): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\wille\source\repos\Euchre\Game.cpp(365,144): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\wille\source\repos\Euchre\Game.cpp(377,144): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\wille\source\repos\Euchre\Game.cpp(389,144): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\wille\source\repos\Euchre\Game.cpp(401,144): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\wille\source\repos\Euchre\Game.cpp(420,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Hand.cpp
+  Generating Code...
+  Euchre.vcxproj -> C:\Users\wille\source\repos\Euchre\x64\Debug\Euchre.exe
